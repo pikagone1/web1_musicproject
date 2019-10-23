@@ -101,7 +101,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body{
+  font-family:"Noto Sans", sans-serif;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -142,6 +144,13 @@ textarea {
   margin: 0 auto;
 }
 
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .Navbar a{
   width: 90%;
   color: #ffffff;
@@ -154,6 +163,14 @@ textarea {
   color: #000000;
 }
 
+.spacer{
+  height: 20px;
+  width: 15px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
 /*End Nav styles
 
 
@@ -175,20 +192,154 @@ textarea {
 
 /*End Hero styles
 
+/* ======= */
+.Orange_Bar1{
+  background-color: #FF9100;
+  padding: 11px;
+}
+
+/* ==========================================================================
+   Begin About Styles
+   ========================================================================== */
+
+.About_section{
+  background-color: #000;
+  min-height: 565px;
+  padding: 10px
+
+}
+.About_CTA h1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+  color: #fff;
+}
 
 
-/*Begin About styles
+.About_CTA h2{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.About_CTA h3{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
 /*End About styles
 
-/* Begin Tour styles
+/* ======= */
+.Orange_Bar2{
+  background-color: #FF9100;
+  padding: 11px;
+}
+
+
+/* ==========================================================================
+   Begin Tour Styles
+   ========================================================================== */
+
+.Tour_section{
+  background-color: #000;
+  min-height: 598px;
+  padding: 10px;
+}
+
+
+.Tour_CTA h1{
+  font-size: 84px;
+  color: #fff;
+  text-align: center;
+}
+
+.Tour_CTA h2{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.Tour_CTA h3{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.Tour_CTA h4{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
 /* End Tour styles
 
+/* ======= */
+.Orange_Bar3{
+  background-color: #FF9100;
+  padding: 11px;
+}
 
-/*Begin Comment styles
+
+/* ==========================================================================
+   Begin Comment Styles
+   ========================================================================== */
+.Comment_section{
+  background-color: #000;
+  min-height: 564px;
+  padding: 10px;
+
+}
+
+.Comment_CTA h1{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Comment_CTA img{
+  justify-content:center;
+  align-items: center;
+
+}
 /*End comment styles
 
 
-/* Begin footer styles
+/* ==========================================================================
+   Begin footer Styles
+   ========================================================================== */
+
+footer{
+  background-color: #FF9100;
+  min-height: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+footer p{
+  color: #000;
+  font-size: 9px;
+  font-weight: 400i;
+}
+
 /* End footer styles
 
 
