@@ -152,11 +152,12 @@ nav{
 
 
 .Navbar a{
-  width: 90%;
+  width: 100%;
   color: #ffffff;
-  margin: 9px;
+  margin: 10px;
   text-decoration: none;
-  font-family: 'Noto Sans';
+  font-weight: 900;
+  padding: 0px;
 }
 
 .Navbar a:hover{
@@ -208,41 +209,36 @@ nav{
   padding: 10px
 
 }
-.About_CTA h1{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+.About_CTA{
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 10px;
+}
+
+.About_CTA h1{
+  margin: 30px;
+  display: flex;
   font-size: 14px;
   color: #fff;
+  font-weight: 500;
 }
 
 
 .About_CTA h2{
-  width: 40%;
+  margin: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
   font-size: 14px;
   color: #fff;
+  font-weight: 500;
 }
 
 .About_CTA h3{
-  width: 40%;
+  margin: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
   font-size: 14px;
   color: #fff;
+  font-weight: 500;
 }
 
 /*End About styles
@@ -264,28 +260,37 @@ nav{
   padding: 10px;
 }
 
+.Tour_CTA{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
 
+}
 .Tour_CTA h1{
   font-size: 84px;
-  color: #fff;
   text-align: center;
+  font-weight: 900;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: #FF9100;
 }
+
 
 .Tour_CTA h2{
   font-size: 16px;
+  font-weight: 500;
   color: #fff;
   text-align: center;
+  margin: 20px;
 }
 
 .Tour_CTA h3{
   font-size: 16px;
+  font-weight: 400;
   color: #fff;
   text-align: center;
-}
-.Tour_CTA h4{
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
+  margin: 5px;
 }
 
 /* End Tour styles
@@ -307,15 +312,24 @@ nav{
 
 }
 
+.Comment_CTA{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 .Comment_CTA h1{
   color: #fff;
   font-size: 14px;
   text-align: center;
+  font-weight: 400;
 }
 
 .Comment_CTA img{
   justify-content:center;
   align-items: center;
+  margin: 20px;
 
 }
 /*End comment styles
@@ -334,10 +348,31 @@ footer{
   margin: 0 auto;
 }
 
-footer p{
+.media_icons{
+  align-items: center;
+}
+
+.Footer a{
+  width: 90%;
   color: #000;
+  margin: 9px;
+  text-decoration: none;
+  font-family: 'Noto Sans';
   font-size: 9px;
-  font-weight: 400i;
+  text-align: center;
+}
+
+.Footer a:hover{
+  color: #fff;
+}
+
+.Spacer{
+  height: 15px;
+  width: 20px;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
 }
 
 /* End footer styles
