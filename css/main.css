@@ -128,6 +128,7 @@ body{
   align-items: center;
   margin: 0 auto;
   }
+
 /*End Home Styles
 
 /* ==========================================================================
@@ -197,6 +198,22 @@ nav{
 .Orange_Bar1{
   background-color: #FF9100;
   padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.chevron{
+  top: -12px;
+position: relative;
+}
+
+.chevron img{
+  width: 84px;
+position: absolute;
+margin-bottom: 5%;
 }
 
 /* ==========================================================================
@@ -214,6 +231,8 @@ nav{
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 90px;
+  width: 50%,20%;
 }
 
 .About_CTA h1{
@@ -244,10 +263,6 @@ nav{
 /*End About styles
 
 /* ======= */
-.Orange_Bar2{
-  background-color: #FF9100;
-  padding: 11px;
-}
 
 
 /* ==========================================================================
@@ -258,15 +273,34 @@ nav{
   background-color: #000;
   min-height: 598px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.centerme{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .Tour_CTA{
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
   padding: 0px;
-
 }
+
+.Tour_CTA img{
+  margin: 10px;
+}
+
 .Tour_CTA h1{
   font-size: 84px;
   text-align: center;
@@ -279,10 +313,10 @@ nav{
 
 .Tour_CTA h2{
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 .Tour_CTA h3{
@@ -290,16 +324,13 @@ nav{
   font-weight: 400;
   color: #fff;
   text-align: center;
-  margin: 5px;
+  margin: 1px;
 }
 
 /* End Tour styles
 
 /* ======= */
-.Orange_Bar3{
-  background-color: #FF9100;
-  padding: 11px;
-}
+
 
 
 /* ==========================================================================
@@ -348,8 +379,16 @@ footer{
   margin: 0 auto;
 }
 
-.media_icons{
-  align-items: center;
+.media_icons i{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.media_icons i:hover{
+  color: #fff;
 }
 
 .Footer a{
