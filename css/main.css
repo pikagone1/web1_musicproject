@@ -129,6 +129,19 @@ body{
   margin: 0 auto;
   }
 
+  .chevron1{
+  top: -44px;
+  position: relative;
+  }
+
+  .chevron1 img{
+    width: 84px;
+  position: absolute;
+  margin-bottom: 20%;
+  }
+
+
+
 /*End Home Styles
 
 /* ==========================================================================
@@ -206,7 +219,7 @@ nav{
 }
 
 .chevron{
-  top: -12px;
+  top: -17px;
 position: relative;
 }
 
@@ -242,6 +255,19 @@ margin-bottom: 5%;
   color: #fff;
   font-weight: 500;
 }
+
+.About_CTA img {
+  opacity: 100;
+  transition: .1s ease;
+  border: 2px solid black;
+
+
+}
+
+.About_CTA img:hover {
+  opacity: 0.6;
+  border: 2px solid orange;
+  }
 
 
 .About_CTA h2{
@@ -299,11 +325,21 @@ margin-bottom: 5%;
 
 .Tour_CTA img{
   margin: 10px;
+
 }
 
+.Tour_CTA img{
+  border: 3px solid black;
+}
+
+.Tour_CTA img:hover{
+  border: 3px solid white;
+
+}
 .Tour_CTA h1{
   font-size: 84px;
   text-align: center;
+  justify-content:center;
   font-weight: 900;
   -webkit-text-fill-color: #fff;
   -webkit-text-stroke-width: 3px;
@@ -355,6 +391,8 @@ margin-bottom: 5%;
   font-size: 14px;
   text-align: center;
   font-weight: 400;
+  padding: 10px;
+  margin: 20px;
 }
 
 .Comment_CTA img{
@@ -363,6 +401,19 @@ margin-bottom: 5%;
   margin: 20px;
 
 }
+
+
+.Comment_CTA img {
+  opacity: 100;
+  transition: .1s ease;
+  border: 2px solid black;
+
+
+}
+.Comment_CTA img:hover {
+  opacity: 0.7;
+  border: 2px solid orange;
+  }
 /*End comment styles
 
 
@@ -379,11 +430,16 @@ footer{
   margin: 0 auto;
 }
 
-.media_icons i{
-display: flex;
-align-items: center;
-justify-content: center;
+.media_icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
 
+.media_icons i{
+margin: 2%;
 }
 
 
@@ -443,6 +499,51 @@ justify-content: center;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   /* On screens that are 1800px wide or more */
+   @media screen and (min-width: 1800px) {
+
+   }
+
+   /* On screens that are 1400px wide or less */
+   @media screen and (max-width: 1400px) {
+
+   }
+
+   /* On screens that are 1000px wide or less */
+   @media screen and (max-width: 1000px) {
+
+   }
+
+   /* On screens that are 900px wide or less */
+   @media screen and (max-width: 900px) {
+
+   }
+
+   /* On screens that are 768px wide or less */
+   @media screen and (max-width: 768px) {
+
+   }
+
+   /* On screens that are 550px wide or less */
+   @media screen and (max-width: 550px) {
+
+   }
+
+   /* On screens that are 450px wide or less */
+   @media screen and (max-width: 450px) {
+
+   }
+
+   /* On screens that are 300px wide or less */
+   @media screen and (max-width: 300px) {
+
+   }
+
+
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
