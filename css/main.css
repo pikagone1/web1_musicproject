@@ -248,10 +248,11 @@ margin-bottom: 5%;
   width: 50%,20%;
 }
 
-.About_CTA h1{
+.About_CTA p{
   margin: 30px;
   display: flex;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.6rem;
   color: #fff;
   font-weight: 500;
 }
@@ -297,22 +298,14 @@ margin-bottom: 5%;
 
 .Tour_section{
   background-color: #000;
-  min-height: 598px;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   flex-direction: row;
 }
 
-.centerme{
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
+
 
 .Tour_CTA{
   display: flex;
@@ -320,7 +313,7 @@ margin-bottom: 5%;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 0px;
+  padding: 15px;
 }
 
 .Tour_CTA img{
@@ -383,12 +376,14 @@ margin-bottom: 5%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 120px;  
 }
 
 
-.Comment_CTA h1{
+.Comment_CTA p{
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.6rem;
   text-align: center;
   font-weight: 400;
   padding: 10px;
