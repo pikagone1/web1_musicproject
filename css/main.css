@@ -170,6 +170,8 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 4%;
+  position: relative;
 }
 
 
@@ -180,6 +182,9 @@ nav{
   text-decoration: none;
   font-weight: 900;
   padding: 0px;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .Navbar a:hover{
@@ -224,6 +229,7 @@ nav{
   align-items: center;
   margin: 0 auto;
   position: relative;
+  box-shadow: 0px 4px 10px grey;
 }
 
 .chevron{
@@ -235,6 +241,7 @@ position: relative;
   width: 84px;
 position: absolute;
 margin-bottom: 5%;
+
 }
 
 /* ==========================================================================
@@ -242,22 +249,36 @@ margin-bottom: 5%;
    ========================================================================== */
 
 .About_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   background-color: #000;
   min-height: 565px;
-  padding: 10px
-
+  padding: 10px;
+  flex-direction: column;
 }
 
 .About_CTA{
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 90px;
-  width: 50%,20%;
+  width: 50%;
+  flex-direction: column;
+}
+
+.imagebox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .About_CTA p{
-  margin: 30px;
+  margin: 15px;
   display: flex;
   font-size: 18px;
   line-height: 1.6rem;
@@ -268,6 +289,7 @@ margin-bottom: 5%;
 }
 
 .About_CTA img {
+  margin: 8px;
   opacity: 100;
   transition: .1s ease;
   border: 2px solid black;
@@ -277,25 +299,11 @@ margin-bottom: 5%;
 
 .About_CTA img:hover {
   opacity: 0.6;
-  border: 2px solid orange;
+
+
   }
 
 
-.About_CTA h2{
-  margin: 30px;
-  display: flex;
-  font-size: 14px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.About_CTA h3{
-  margin: 20px;
-  display: flex;
-  font-size: 14px;
-  color: #fff;
-  font-weight: 500;
-}
 
 /*End About styles
 
@@ -336,7 +344,7 @@ margin-bottom: 5%;
 }
 
 .Tour_CTA img:hover{
-  border: 3px solid white;
+  opacity: .6;
 
 }
 .Tour_CTA h1{
@@ -378,7 +386,12 @@ margin-bottom: 5%;
 .Comment_section{
   background-color: #000;
   min-height: 564px;
-  padding: 10px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
 
 }
 
@@ -386,18 +399,24 @@ margin-bottom: 5%;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 120px;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  padding: 50px;
+  width: 50%;
+  flex-direction: column;
+
 }
 
 
 .Comment_CTA p{
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6rem;
   text-align: center;
   font-weight: 400;
-  padding: 10px;
-  margin: 20px;
+  padding: 5px;
+  margin: 15px;
 }
 
 .Comment_CTA img{
@@ -411,13 +430,13 @@ margin-bottom: 5%;
 .Comment_CTA img {
   opacity: 100;
   transition: .1s ease;
-  border: 2px solid black;
+
 
 
 }
 .Comment_CTA img:hover {
   opacity: 0.7;
-  border: 2px solid orange;
+
   }
 /*End comment styles
 
@@ -475,13 +494,22 @@ margin-bottom: 5%;
 
 }
 
-.media_icons,
+.media_icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 15px;
+}
+
+
 .legal{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   margin: 15px;
+
 }
 
 .media_icons{
