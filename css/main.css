@@ -19,6 +19,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 /*
@@ -129,24 +130,21 @@ body{
   margin: 0 auto;
   }
 
-.Bandlogo:hover{
-    opacity: .5;
+.Home img:hover{
+    opacity: .8;
+
+}
+
+
+.Home img{
+position: relative;
+top: 10px;
 }
 
 
 
 
 
-  .chevron1{
-  top: -44px;
-  position: relative;
-  }
-
-  .chevron1 img{
-    width: 84px;
-  position: absolute;
-  margin-bottom: 20%;
-  }
 
 
 
@@ -216,6 +214,7 @@ align-items: center;
      background-repeat: no-repeat;
      background-size: cover;
      overflow: none;
+
    }
 
 /*End Hero styles
@@ -255,7 +254,7 @@ margin-bottom: 5%;
   width: 100%;
   background-color: #000;
   min-height: 565px;
-  padding: 10px;
+  padding: 0px;
   flex-direction: column;
 }
 
@@ -316,7 +315,6 @@ margin-bottom: 5%;
 
 .Tour_section{
   background-color: #000;
-  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,12 +329,11 @@ margin-bottom: 5%;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 .Tour_CTA img{
-  margin: 10px;
-
+  margin: 14px;
 }
 
 .Tour_CTA img{
@@ -352,6 +349,7 @@ margin-bottom: 5%;
   text-align: center;
   justify-content:center;
   font-weight: 900;
+
   -webkit-text-fill-color: #fff;
   -webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: #FF9100;
@@ -360,10 +358,13 @@ margin-bottom: 5%;
 
 .Tour_CTA h2{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
   text-align: center;
   margin: 10px;
+  position: relative;
+  bottom: 15px;
+
 }
 
 .Tour_CTA h3{
@@ -372,6 +373,9 @@ margin-bottom: 5%;
   color: #fff;
   text-align: center;
   margin: 1px;
+  position: relative;
+  bottom: 20px;
+
 }
 
 /* End Tour styles
@@ -392,7 +396,7 @@ margin-bottom: 5%;
   align-items: center;
   width: 100%;
   flex-direction: column;
-
+  padding: 0px;
 }
 
 .Comment_CTA{
@@ -414,9 +418,20 @@ margin-bottom: 5%;
   font-size: 16px;
   line-height: 1.6rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   padding: 5px;
   margin: 15px;
+}
+
+.Comment_CTA p2{
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+  z-index: -10px;
+  position: relative;
+bottom: 20px;
 }
 
 .Comment_CTA img{
@@ -482,8 +497,7 @@ margin-bottom: 5%;
    margin-bottom: 5%;
    }
 
-
-.Footer{
+footer{
   background-color: #FF9100;
   min-height: 99px;
   display: flex;
@@ -493,6 +507,8 @@ margin-bottom: 5%;
   flex-direction: column;
 
 }
+
+
 
 .media_icons{
   display: flex;
@@ -514,7 +530,7 @@ margin-bottom: 5%;
 
 .media_icons{
   position: relative;
-  top: 40px;
+  top: 35px;
 }
 
 .legal{
@@ -531,7 +547,7 @@ margin-bottom: 5%;
   flex-direction: row;
   width: 35px;
   height: 35px;
-  padding: 1px;
+  padding: 10px;
 }
 
 .icons:hover{
@@ -558,7 +574,7 @@ margin-bottom: 5%;
 
 .Spacer{
   height: 15px;
-  width: 20px;
+  width: 15px;
   background-color: #000;
   margin-left: auto;
   margin-right: auto;
