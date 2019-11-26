@@ -18,7 +18,7 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 0;
   overflow-x: hidden;
 }
 
@@ -234,12 +234,17 @@ align-items: center;
 .chevron{
   top: -17px;
 position: relative;
+display: flex;
+justify-content: center;
 }
 
 .chevron img{
   width: 84px;
 position: absolute;
 margin-bottom: 5%;
+margin: center;
+align-items: center;
+
 
 }
 
@@ -264,7 +269,7 @@ margin-bottom: 5%;
   justify-content: center;
   text-align: center;
   padding: 90px;
-  width: 50%;
+  width: 60%;
   flex-direction: column;
 }
 
@@ -499,13 +504,13 @@ bottom: 20px;
 
 footer{
   background-color: #FF9100;
-  min-height: 99px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  flex-direction: column;
-
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 10px;
 }
 
 
@@ -519,25 +524,11 @@ footer{
 }
 
 
-.legal{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  margin: 15px;
-
-}
-
 .media_icons{
   position: relative;
-  top: 35px;
+  top: 24px;
 }
 
-.legal{
-  position: relative;
-  top: 15px;
-
-}
 
 .media_icons svg{
   display: flex;
@@ -555,20 +546,28 @@ footer{
 
 }
 
-
+.legal{
+  position: relative;
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 15px;
 }
 
-.Footer a{
-  width: 90%;
+
+.legal a{
   color: #000;
-  margin: 9px;
+  margin: 5px;
   text-decoration: none;
   font-family: 'Noto Sans';
-  font-size: 9px;
+  font-size: 14px;
   text-align: center;
+
 }
 
-.Footer a:hover{
+.legal a:hover{
   color: #fff;
 }
 
@@ -618,27 +617,38 @@ footer{
 
    /* On screens that are 1400px wide or less */
    @media screen and (max-width: 1400px) {
-
+     .Hero{
+       height: 75vh;
    }
 
    /* On screens that are 1000px wide or less */
    @media screen and (max-width: 1000px) {
-
+     .Hero{
+       height: 70vh;
    }
 
    /* On screens that are 900px wide or less */
    @media screen and (max-width: 900px) {
-
+     .Hero{
+       height: 60vh;
    }
 
    /* On screens that are 768px wide or less */
    @media screen and (max-width: 768px) {
+     .Hero{
+       height: 40vh;
+
+     .imagebox{
+       flex-wrap: wrap;
+     }
 
    }
 
    /* On screens that are 550px wide or less */
    @media screen and (max-width: 550px) {
 
+     .Hero{
+       height: 30vh;
    }
 
    /* On screens that are 450px wide or less */
